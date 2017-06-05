@@ -152,6 +152,9 @@ set complete+=kspell
 " Always use vertical diffs
 set diffopt+=vertical
 
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
